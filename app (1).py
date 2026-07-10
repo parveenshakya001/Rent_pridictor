@@ -6,7 +6,7 @@ import joblib
 import spaces
 
 # We load the model once when the app starts
-deployed_lr = joblib.load('my_FirstModel.pkl')
+deployed_lr = joblib.load('myFirstModel.pkl')
 
 # --- ZERO-GPU DECORATOR AND PREDICTION LOGIC ---
 @spaces.GPU
