@@ -3,7 +3,7 @@
 # --- CHANGED BLOCK START ---
 import gradio as gr
 import joblib
-import spaces
+
 
 # We load the model once when the app starts
 deployed_lr = joblib.load('myFirstModel.pkl')
